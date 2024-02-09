@@ -11,7 +11,7 @@ function handleSubmit(evt) {
 function mouseOverButton(evt) {
 	evt.preventDefault();
 	
-	alert("Do the best you can!");
+	alert("Always do the best you can!");
 }
 
 let form = document.querySelector('#contact');
