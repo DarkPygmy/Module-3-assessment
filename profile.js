@@ -1,17 +1,17 @@
 
 function alertColor(evt) {
 	evt.preventDefault();
-        alert("My favorite color is Blue")
+        alert("My favorite color is Blue.")
 }
 
 function alertPlace (evt) {
 	evt.preventDefault();
-        alert("My favorite place is heaven")
+        alert("My favorite place is heaven.")
 }
 
 function alertRitual(evt) {
 	evt.preventDefault();
-        alert("Praying at night.")
+        alert("My favorite ritual is praying at night.")
 }
 let button1 = document.querySelector("#color")
 let button2 = document.querySelector("#place")
