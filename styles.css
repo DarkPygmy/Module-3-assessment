@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	width: 80vw;
-	height: 40vh;
+	height: 30vh;
 	border: solid blue 5px;
 	padding: 20px;
 	background-color: aqua;
@@ -20,6 +20,8 @@
 
 #profile {
 	list-style-type: circle;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(0, 255, 34);
 }
 
 
@@ -54,7 +56,7 @@ ol {
 	display: inline;
 }
 
-#link-background {
+.link-background {
 	display: flex;
 	align-items: center;
 	width: 80vw;
@@ -104,4 +106,14 @@ h2 {
 #contact {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgb(0, 255, 34);
+}
+
+#about-background {
+	display: flex;
+	align-items: center;
+	width: 80vw;
+	height: 15vh;
+	border: solid blue 5px;
+	padding: 20px;
+	background-color: aqua;
 }
